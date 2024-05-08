@@ -13,7 +13,7 @@ import { Textarea } from "@/components/ui/textarea"
 export default function Component() {
   return (
     <>
-      <header className="w-full bg-gradient-to-r from-[#5C8D4E] to-[#8DC36F] py-12 md:py-20 lg:py-24">
+      <header className="w-full bg-gradient-to-r from-[#5C8D4E] to-[#8DC36F] py-44 md:py-24 lg:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
