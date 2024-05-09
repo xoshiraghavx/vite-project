@@ -1,8 +1,9 @@
+import { Component } from "@/components/component/component";
 
 export default function Home() {
   return (
     <main>
-      Hello India
+      <Component />
     </main>
   )
 }
