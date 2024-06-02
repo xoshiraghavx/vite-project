@@ -1,8 +1,10 @@
+import Image from 'next/image';
 import React from 'react'
 const benefits = [
     "Promotes hair growth and thickness",
+    "Nourishes and conditions the scalp",
     "Reduces hair fall and breakage",
-    "Nourishes and conditions the scalp"
+    
   ];
 const About = () => {
   return (
@@ -23,13 +25,13 @@ const About = () => {
           <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#333333]">Nourish Your Hair Naturally</h2>
                 <p className="text-lg md:text-xl text-[#666666]">
-                Our herbal hair oil is formulated with a blend of ancient Ayurvedic ingredients to deeply nourish and
-                strengthen your hair.
+                At Herbal Locks, we are dedicated to promoting healthy, lustrous hair through the ancient wisdom of Ayurveda. We believe in using nature's bounty responsibly. That's why our hair oil is made without harsh chemicals.
+
                 </p>
                 <ul className="space-y-3 text-[#666666]">
                 {benefits.map((benefit, index) => (
                     <li key={index} className="flex items-center space-x-3">
-                    <LeafIcon className="h-6 w-6 text-[#5C8D4E]" />
+                    <Image src="/logo.svg" alt="leaf" width={15} height={15} className="h-8 w-8 text-[#5C8D4E] img" />
                     <span>{benefit}</span>
                     </li>
                 ))}
@@ -38,24 +40,5 @@ const About = () => {
         </div>
       </div>
   )
-}
-function LeafIcon(props) {
-  return (
-    (<svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round">
-      <path
-        d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
-      <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
-    </svg>)
-  );
 }
 export default About

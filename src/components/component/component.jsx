@@ -1,14 +1,12 @@
 import { Button } from "@/components/ui/button"
-import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
-import { Card } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import Link from "next/link"
-import { InfiniteMovingCards } from "../ui/infinite-moving-cards"
 import Testimonials from "./Testimonials"
 import Ingredient from "./Ingredient"
 import About from "./About"
+import { Footer } from "./Footer"
+import Image from "next/image"
 
 export function Component() {
   return (<>
@@ -18,7 +16,7 @@ export function Component() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <LeafIcon className="h-8 w-8 text-[#F5F5F5]" />
+            <Image src="/logo2.svg" alt="leaf" width={60} height={60} className="text-[#5C8D4E] img" />
               <h1 className="text-3xl md:text-4xl font-bold text-[#F5F5F5]">Herbal Locks</h1>
             </div>
             <p className="text-lg md:text-xl text-[#F5F5F5]">Unlock the power of nature for your hair.</p>
@@ -95,58 +93,9 @@ export function Component() {
     </section>
     <footer
       className="w-full bg-gradient-to-r from-[#5C8D4E] to-[#8DC36F] text-[#F5F5F5] py-8 md:py-12">
-      <div className="container mx-auto px-4 md:px-6 lg:px-8">
-        <div
-          className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-          <div
-            className="flex items-center space-x-3 transition-colors duration-300 hover:text-[#E0E0E0]">
-            <LeafIcon className="h-6 w-6" />
-            <span className="text-lg font-bold">Locks in Ayurvedic</span>
-          </div>
-          <nav className="flex items-center space-x-6">
-            <Link
-              className="hover:underline transition-colors duration-300 hover:text-[#E0E0E0]"
-              href="#">
-              Home
-            </Link>
-            <Link
-              className="hover:underline transition-colors duration-300 hover:text-[#E0E0E0]"
-              href="#">
-              Products
-            </Link>
-            <Link
-              className="hover:underline transition-colors duration-300 hover:text-[#E0E0E0]"
-              href="#">
-              About
-            </Link>
-            <Link
-              className="hover:underline transition-colors duration-300 hover:text-[#E0E0E0]"
-              href="#">
-              Contact
-            </Link>
-          </nav>
-        </div>
-      </div>
+      <Footer/>
     </footer>
   </>);
 }
-function LeafIcon(props) {
-  return (
-    (<svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round">
-      <path
-        d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
-      <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
-    </svg>)
-  );
-}
+
 

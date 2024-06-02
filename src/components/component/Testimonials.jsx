@@ -3,32 +3,32 @@ import { InfiniteMovingCards } from '../ui/infinite-moving-cards';
 const testimonials = [
     {
       quote:
-        "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-      name: "Charles Dickens",
-      title: "A Tale of Two Cities",
+        "I've struggled with thinning hair for years, but this oil has been a game-changer! After just a few months of regular use, I've noticed significantly less shedding and my hairline is starting to fill in again. The ingredients seem to be really nourishing my scalp. Highly recommend!",
+      name: "Jhankar Sethi",
+      // title: "A Tale of Two Cities",
     },
     {
       quote:
-        "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-      name: "William Shakespeare",
-      title: "Hamlet",
+        "As someone with naturally dry, frizzy hair, I'm always on the hunt for good hair oils - and this one is a keeper! It makes my hair so soft, shiny and manageable without weighing it down. I love that it's made with pure, high-quality ayurvedic herbs too. A little goes a long way.",
+      name: "Ananya Pandey",
+      // title: "Hamlet",
     },
     {
-      quote: "All that we see or seem is but a dream within a dream.",
-      name: "Edgar Allan Poe",
-      title: "A Dream Within a Dream",
-    },
-    {
-      quote:
-        "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-      name: "Jane Austen",
-      title: "Pride and Prejudice",
+      quote: "I was a bit skeptical of hair oils at first, but the texture of this one won me over from the first use. It has such a thick herbal oil. Beyond that, it's worked wonders on my split ends and dry lengths. My hair feels stronger and healthier overall.",
+      name: "Saavi Chaudhary",
+      // title: "A Dream Within a Dream",
     },
     {
       quote:
-        "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-      name: "Herman Melville",
-      title: "Moby-Dick",
+        "My sister gifted me this hair oil and I'm so glad she did! At my age, volume and growth are an issue, but I've definitely seen improvements after a couple months with this ayurvedic formula. It's become an essential part of my routine.",
+      name: "Kanika Kothari",
+      // title: "Pride and Prejudice",
+    },
+    {
+      quote:
+        "I get tons of compliments on how nice and glossy my hair looks ever since I started using this oil! It seems to be working really well for me. Plus, the packaging looks so nice sitting on my bathroom counter. Great product all around.",
+      name: "Sharddha Mishra",
+      // title: "Moby-Dick",
     },
   ];  
 const Testimonials = () => {
