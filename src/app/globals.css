@@ -77,3 +77,25 @@
 .img {
     pointer-events: none;
 }
+
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0 0 0 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #54c294;
+  border-radius: 0.4rem;
+
+  border: 0.1rem solid rgba(0 0 0 0);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #35d894;
+}
