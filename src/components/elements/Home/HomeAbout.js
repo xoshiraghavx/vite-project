@@ -7,8 +7,13 @@ const benefits = [
 ];
 const HomeAbout = () => {
   return (
-    <section className='max-w-6xl mx-auto container px-4 py-[10vh] grid md:grid-cols-2 gap-4 md:gap-8'>
-      <div className='col-span-1'>
+    <section className='max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto container px-4 py-[10vh] flex flex-col md:flex-row gap-4 md:gap-8 lg:gap-12'>
+      <img
+        src='/image1.jpeg'
+        className='w-full md:w-1/3 aspect-square rounded-xl mx-auto md:ml-0 object-cover md:sticky top-0'
+        alt=''
+      />
+      <div className='w-full md:w-2/3'>
         <h2 className='text-3xl md:text-4xl font-bold text-[#333333]'>
           Nourish Your Hair Naturally
         </h2>
@@ -18,7 +23,7 @@ const HomeAbout = () => {
           bounty responsibly. That's why our hair oil is made without harsh
           chemicals.
         </p>
-        <div className='grid md:grid-cols-2 mt-4'>
+        <div className='grid mt-4'>
           {benefits.map((item, index) => (
             <div
               key={index}
@@ -36,11 +41,6 @@ const HomeAbout = () => {
           ))}
         </div>
       </div>
-      <img
-        src='/image1.jpeg'
-        className='aspect-square rounded-xl w-[90%] md:w-[80%] mx-auto md:mr-0 object-cover md:sticky top-0 col-span-1'
-        alt=''
-      />
     </section>
   );
 };
