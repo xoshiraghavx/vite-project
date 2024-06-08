@@ -9,7 +9,7 @@ const HomeContact = () => {
             Contact us
           </h1>
           <p className='mt-1 text-gray-600 dark:text-neutral-400'>
-            We'd love to talk about how we can help you.
+            We&apos;d love to talk about how we can help you.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ const HomeContact = () => {
 
               <div className='mt-3 text-center'>
                 <p className='text-sm text-gray-500 dark:text-neutral-500'>
-                  We'll get back to you in 1-2 business days.
+                  We&apos;ll get back to you in 1-2 business days.
                 </p>
               </div>
             </form>
@@ -176,7 +176,7 @@ const HomeContact = () => {
                   Contact us by call
                 </h3>
                 <p className='mt-1 text-sm text-gray-500 dark:text-neutral-500'>
-                  We're here to help with any questions or query.
+                  We&apos;re here to help with any questions or query.
                 </p>
                 <a
                   className='mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200'

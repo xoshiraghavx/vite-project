@@ -19,8 +19,8 @@ const HomeAbout = () => {
         </h2>
         <p className='text-lg md:text-xl text-[#666666] mt-4'>
           At Herbal Locks, we are dedicated to promoting healthy, lustrous hair
-          through the ancient wisdom of Ayurveda. We believe in using nature's
-          bounty responsibly. That's why our hair oil is made without harsh
+          through the ancient wisdom of Ayurveda. We believe in using nature&apos;s
+          bounty responsibly. That&apos;s why our hair oil is made without harsh
           chemicals.
         </p>
         <div className='grid mt-4'>
