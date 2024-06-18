@@ -20,7 +20,7 @@ const items = [
 
 const HomeIngredients = () => {
   return (
-    <section className='max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto container px-4 py-[10vh] flex flex-col-reverse md:flex-row gap-4 md:gap-8 lg:gap-12'>
+    <section className='max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto container px-4 lg:py-[10vh] flex flex-col-reverse md:flex-row gap-4 md:gap-8 lg:gap-12'>
       <div className='w-full md:w-2/3'>
         <h2 className='text-3xl md:text-4xl font-bold text-[#333333]'>
           Ingredients That Nourish

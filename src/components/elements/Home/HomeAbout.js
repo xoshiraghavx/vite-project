@@ -7,7 +7,7 @@ const benefits = [
 ];
 const HomeAbout = () => {
   return (
-    <section className='max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto container px-4 py-[10vh] flex flex-col md:flex-row gap-4 md:gap-8 lg:gap-12'>
+    <section className='max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto container px-4 pb-[10vh] lg:pt-[15vh] pt-[8vh] flex flex-col md:flex-row gap-4 md:gap-8 lg:gap-12'>
       <img
         src='/image1.jpeg'
         className='w-full md:w-1/3 aspect-square rounded-xl mx-auto md:ml-0 object-cover md:sticky top-0'
