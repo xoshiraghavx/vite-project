@@ -1,5 +1,6 @@
 import HomeAbout from '@/components/elements/Home/HomeAbout';
 import HomeContact from '@/components/elements/Home/HomeContact';
+import HomeFaq from '@/components/elements/Home/HomeFaq';
 import HomeHero from '@/components/elements/Home/HomeHero';
 import HomeIngredients from '@/components/elements/Home/HomeIngredients';
 import HomeTestimonials from '@/components/elements/Home/HomeTestimonials';
@@ -13,6 +14,7 @@ export default function Home() {
       <HomeIngredients />
       <HomeTestimonials />
       <HomeContact />
+      <HomeFaq />
       <Footer />
     </main>
   );

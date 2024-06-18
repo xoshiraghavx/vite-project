@@ -15,11 +15,7 @@ const HomeContact = () => {
 
         <div className='mt-12 grid items-center lg:grid-cols-2 gap-6 lg:gap-16'>
           <div className='flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-neutral-700'>
-            <h2 className='mb-8 text-xl font-semibold text-gray-800 dark:text-neutral-200'>
-              Fill in the form
-            </h2>
-
-            <form
+            {/* <form
             action="https://formcarry.com/s/DuUyDUK2olM"
             method="POST"
             enctype="multipart/form-data">
@@ -114,7 +110,8 @@ const HomeContact = () => {
                   We&apos;ll get back to you in 1-2 business days.
                 </p>
               </div>
-            </form>
+            </form> */}
+            <iframe src="https://mg.writewrap.in/widget/clxk5vn420000o5qi2bj4oyqu" className='h-full min-h-[26rem]' frameborder="0"></iframe>
           </div>
 
           <div className='divide-y divide-gray-200 dark:divide-neutral-800'>
@@ -143,7 +140,7 @@ const HomeContact = () => {
                 </p>
                 <a
                   className='mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200'
-                  href='#'
+                  href='#faqs'
                 >
                   Visit FAQ
                   <svg

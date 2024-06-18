@@ -29,7 +29,8 @@ const HomeHero = () => {
       <div className="absolute z-[4px] translate-x-1/2  -translate-y-1/2 w-full rounded-full aspect-square right-0 top-0 bg-gradient-to-bl from-yellow-200 to-transparent blur-3xl"></div>
 
       <div className="relative z-10 w-full">
-        <div className="min-h-screen flex flex-col md:flex-row">
+        <img src="/logo_wide.png" className="h-12 absolute z-10 top-4 left-2 md:top-8 md:left-32" alt="" />
+        <div className="min-h-screen flex flex-col md:flex-row md:items-center">
           <div className="w-full md:w-3/5 md:pl-32 p-4 pt-[10vh]">
             <FollowerPointerCard title={"Buy Now"}>
               <TextGenerateEffect
