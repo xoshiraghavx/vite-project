@@ -35,6 +35,7 @@ const HomeContact = () => {
                       id='hs-firstname-contacts-1'
                       className='py-3 px-4 block w-full border-gray-200 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600'
                       placeholder='First Name'
+                      required
                     />
                   </div>
 
@@ -48,6 +49,7 @@ const HomeContact = () => {
                       id='hs-lastname-contacts-1'
                       className='py-3 px-4 block w-full border-gray-200 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600'
                       placeholder='Last Name'
+                      required
                     />
                   </div>
                 </div>
@@ -63,6 +65,8 @@ const HomeContact = () => {
                     autocomplete='email'
                     className='py-3 px-4 block w-full border-gray-200 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600'
                     placeholder='Email'
+                    required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                   />
                 </div>
 
@@ -76,6 +80,8 @@ const HomeContact = () => {
                     id='hs-phone-number-1'
                     className='py-3 px-4 block w-full border-gray-200 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600'
                     placeholder='Phone Number'
+                    required
+                    pattern="\+?[0-9\s\-]{7,15}"
                   />
                 </div>
 
@@ -89,6 +95,7 @@ const HomeContact = () => {
                     rows='4'
                     className='py-3 px-4 block w-full border-gray-200 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600'
                     placeholder='Details'
+                    required
                   ></textarea>
                 </div>
               </div>
