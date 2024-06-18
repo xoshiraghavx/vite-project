@@ -23,15 +23,15 @@ export default function RootLayout({ children }) {
         <meta name="language" content="English" />
         <meta name="author" content="Herbal Locks" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://herballocks.in" />
+        <meta property="og:url" content="https://herballocks.vercel.app" />
         <meta property="og:title" content="Herbal Locks" />
         <meta
           property="og:description"
           content="Delays premature greying Keeps the scalp healthy Guranteed hair growth Nourishes the roots Hair loss control"
         />
-        <meta property="og:image" content="https://herballocks.in/banner.png" />
+        <meta property="og:image" content="https://herballocks.vercel.app/banner.png" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://herballocks.in" />
+        <meta property="twitter:url" content="https://herballocks.vercel.app" />
         <meta property="twitter:title" content="Herbal Locks" />
         <meta
           property="twitter:description"
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           property="twitter:image"
-          content="https://herballocks.in/banner.png"
+          content="https://herballocks.vercel.app/banner.png"
         />
         
         <link rel='icon' href='/logo.png' />
