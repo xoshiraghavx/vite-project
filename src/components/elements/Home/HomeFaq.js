@@ -8,7 +8,7 @@ import {
 
 function HomeFaq() {
   return (
-    <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto" id="faqs">
+    <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto p-4" id="faqs">
       <AccordionItem value="item-1">
         <AccordionTrigger>Is it accessible?</AccordionTrigger>
         <AccordionContent>

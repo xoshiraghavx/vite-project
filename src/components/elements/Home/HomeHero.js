@@ -35,14 +35,14 @@ const HomeHero = () => {
             <FollowerPointerCard title={"Buy Now"}>
               <TextGenerateEffect
                 words="#1 in Natural Hair Regrowth"
-                className="text-base text-gray-600 font-normal mb-2"
+                className="text-lg text-gray-600 font-normal mb-2"
               />
-              <div className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-800">
+              <div className="text-3xl md:text-6xl lg:text-7xl font-bold text-gray-800">
                 Herbal Locks Hair Oil
               </div>
               <TextGenerateEffect
                 words="Delays premature greying Keeps the scalp healthy Guranteed hair growth Nourishes the roots Hair loss control"
-                className="mt-6 text-lg md:text-2xl font-medium text-gray-700"
+                className="mt-2 text-lg md:text-2xl font-medium text-gray-700"
               />
               <a
                 className="mt-6 w-fit bg-gradient-to-r from-emerald-600 to-emerald-400 text-white rounded-full flex items-center justify-center py-3 px-8 shadow-lg hover:scale-95 transition-transform"

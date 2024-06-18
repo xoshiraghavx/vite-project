@@ -36,7 +36,7 @@ const HomeTestimonials = () => {
   return (
     <>
       <div className='h-[30rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden'>
-        <h2 className='text-3xl md:text-4xl font-bold text-[#333333] my-10'>
+        <h2 className='p-4 text-3xl md:text-4xl font-bold text-[#333333] my-10'>
           What Our Customers Say
         </h2>
         <InfiniteMovingCards
