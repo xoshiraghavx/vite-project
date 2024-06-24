@@ -50,7 +50,7 @@ const HomeHero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Buy it now
+                Buy now
               </a>
               {/* {mounted ? (
                 <form id='payment-button' className='mt-6'></form>
