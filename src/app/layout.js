@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           content="Delays premature greying Keeps the scalp healthy Guranteed hair growth Nourishes the roots Hair loss control"
         />
         <meta name="keywords" content="hair oil, herbal hair oil, ayurvedic hair oil, homemade hair oil" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="author" content="Herbal Locks" />
         <meta property="og:type" content="website" />
