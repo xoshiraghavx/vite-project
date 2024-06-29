@@ -53,7 +53,7 @@ const HomeFaq = () => {
           We&apos;d love to solve any of your queries.
         </p>
       </div>
-      <div className="flex justify-center items-ceter 	">
+      <div className="md:flex justify-center items-ceter 	">
         <div className=" p-4 border-r">
           <div className="font-bold text-xl mb-4">Table of Content</div>
           {faqData.map((item) => (
@@ -66,7 +66,7 @@ const HomeFaq = () => {
             </div>
           ))}
         </div>
-        <div className="p-4 w-2/3">
+        <div className="p-4 md:w-2/3">
           {faqData.find(item => item.category === selectedCategory).questions.map((q, idx) => (
             <div key={idx} className="mb-4">
               <div
