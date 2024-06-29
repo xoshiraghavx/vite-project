@@ -31,7 +31,7 @@ const HomeHero = () => {
       <div className="relative z-10 w-full">
         <img src="/logo_wide.png" className="h-12 absolute z-10 top-4 left-2 md:top-8 md:left-32" alt="" />
         <div className="min-h-screen flex flex-col md:flex-row md:items-center">
-          <div className="w-full md:w-3/5 md:pl-32 p-4 pt-[10vh]">
+          <div className="w-full md:w-3/5 md:pl-32 p-4 pt-[25vh] md:pt-[10vh]">
             <FollowerPointerCard title={"Buy Now"}>
               <TextGenerateEffect
                 words="#1 in Natural Hair Regrowth"
