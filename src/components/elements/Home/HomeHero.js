@@ -41,7 +41,7 @@ const HomeHero = () => {
                 Herbal Locks Hair Oil
               </div>
               <TextGenerateEffect
-                words="Delays premature greying Keeps the scalp healthy Guranteed hair growth Nourishes the roots Hair loss control"
+                words="Delays premature greying Keeps the scalp healthy Guaranteed hair growth Nourishes the roots Hair loss control"
                 className="mt-2 text-lg md:text-2xl font-medium text-gray-700"
               />
               <a
@@ -50,7 +50,7 @@ const HomeHero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Buy it now
+                Buy now
               </a>
               {/* {mounted ? (
                 <form id='payment-button' className='mt-6'></form>
