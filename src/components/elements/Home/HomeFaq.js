@@ -23,10 +23,10 @@ const faqData = [
     { question: 'What should I do if I receive a damaged or incorrect product?', answer: 'If you receive a damaged or incorrect product, please contact our customer service team immediately with your order number and photos of the damaged or incorrect item. We will arrange for a replacement or a refund, depending on your preference. Our priority is to ensure your satisfaction and resolve the issue promptly.' },
   ] },
   { category: 'General Queries', questions: [
-    { question: 'How can I contact customer support?', answer: 'We accept a variety of online payment methods for your convenience.' },
-    { question: 'How long does it take to see results with Herbal Locks Hair Oil?', answer: 'Yes, Herbal Locks Hair Oil is formulated with natural Ayurvedic ingredients known for their soothing and healing properties. It can help alleviate dandruff and other scalp issues by nourishing the scalp, reducing dryness, and promoting overall scalp health.' },
+    { question: 'How can I contact customer support?', answer: 'You can contact our customer support team through Email, Contact Number or Social Media handels.' },
+    { question: 'How long does it take to see results with Herbal Locks Hair Oil?', answer: 'Results can vary depending on individual hair types and conditions, but generally, you may start noticing improvements within 3-5 months of regular use. Consistent application as directed will yield the best results, promoting healthier, stronger, and more vibrant hair over time.' },
     { question: 'Can I leave the hair oil on overnight?', answer: 'Yes, you can leave Herbal Locks Hair Oil on overnight for deeper penetration and better results. Apply the oil evenly to your scalp and hair, massage it gently, and cover your head with a shower cap or a towel to prevent staining your pillow. Wash it off the next morning with a mild shampoo for best results.' },
-    { question: 'Can Herbal Locks Hair Oil help with dandruff or scalp issues?', answer: 'You can contact our customer support team through Email, Contact Number or Social Media handels' },
+    { question: 'Can Herbal Locks Hair Oil help with dandruff or scalp issues?', answer: 'Yes, Herbal Locks Hair Oil is formulated with natural Ayurvedic ingredients known for their soothing and healing properties. It can help alleviate dandruff and other scalp issues by nourishing the scalp, reducing dryness, and promoting overall scalp health.' },
   ] },
 ];
 
