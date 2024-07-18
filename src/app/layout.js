@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -45,6 +47,7 @@ export default function RootLayout({ children }) {
         <link rel='icon' href='/logo.png' />
       </head>
       <body className={inter.className}>{children}</body>
+      <GoogleAnalytics gaId="G-V9RCP5437H" />
     </html>
   );
 }
